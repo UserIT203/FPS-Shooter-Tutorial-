@@ -66,8 +66,6 @@ public class PlayerMotor : MonoBehaviour
         }
         controller.Move(playerVelocity * Time.deltaTime);
 
-        Debug.Log(playerVelocity.y);
-        Debug.Log(controller.isGrounded);
     }
 
     // Update is called once per frame
